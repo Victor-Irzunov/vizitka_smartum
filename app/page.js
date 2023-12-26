@@ -24,7 +24,7 @@ export default function Home() {
             </button>
           </div>
           <div className='sd:flex justify-end items-center sd:w-1/2 xz:hidden'>
-            <Image src='/3D.webp' alt='Фоновая картинка академии' width={328} height={374} />
+            <Image src='/3d.webp' alt='Фоновая картинка академии' width={328} height={374} />
           </div>
         </div>
 
