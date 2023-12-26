@@ -1,9 +1,13 @@
 import CTA from '@/components/CTA/CTA'
 import Catalog from '@/components/Catalog/Catalog'
 import Preimushestva from '@/components/Preimushestva/Preimushestva'
+import { BtnComp } from '@/components/btn/BtnComp'
 import Image from 'next/image'
 
 export default function Home() {
+
+
+
   return (
     <main className="min-h-[80vh] py-32 bg-slate-50 relative">
       <div className='container mx-auto'>
@@ -19,9 +23,8 @@ export default function Home() {
               Учим быстро считать, читать и думать
             </h2>
 
-            <button className='btn bg-[#FD169F] mt-10 text-white rounded-sm text-lg font-semibold'>
-              Записаться
-            </button>
+            <BtnComp />
+
           </div>
           <div className='sd:flex justify-end items-center sd:w-1/2 xz:hidden'>
             <Image src='/3d.webp' alt='Фоновая картинка академии' width={328} height={374} />
@@ -49,6 +52,15 @@ export default function Home() {
           width={233} height={120}
           className='mx-auto'
         />
+      </div>
+
+      <div className='mt-16 text-center'>
+        <h5 className='font-bold text-xl'>
+          Что такое SMARTUM?
+        </h5>
+        <p className='mt-3'>
+          SMARTUM - академия развития интеллекта для детей от 5 до 16 лет. Наша цель - предоставить возможность подрастающему поколению во всем мире обучаться и развиваться с помощью методик AMAkids. Наша миссия - сделать качественное дополнительное образование для детей и подростков.
+        </p>
       </div>
     </main>
   )
