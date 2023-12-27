@@ -197,13 +197,13 @@ export default function Header() {
 										Режим работы:
 									</p>
 									<p className='font-light text-sm pl-4'>
-										пн-пт 9:00-18:00
+										пн-вс 9:00-21:00
 									</p>
 								</div>
 							</div>
 
 							<p className='font-light text-sm sd:block xz:hidden text-end'>
-								Пн-Пт 9:00 - 18:00
+								Пн-Вс 9:00 - 21:00
 							</p>
 						</div>
 

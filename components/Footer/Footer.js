@@ -3,7 +3,11 @@ import { Link as LinkScroll } from 'react-scroll';
 
 export default function Footer() {
 	return (
-		<footer className="footer footer-center p-10 bg-base-200 text-base-content rounded" id='contacts'>
+		<footer
+			className="footer footer-center bg-white
+			p-10 text-base-content rounded"
+			id='contacts'
+		>
 			<nav className="grid grid-flow-col gap-4">
 
 				<LinkScroll

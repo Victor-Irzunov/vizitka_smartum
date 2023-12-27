@@ -22,9 +22,9 @@ export default function Catalog() {
     <>
       <section className='py-16' id="catalog">
         <div className='container mx-auto'>
-          <div className='text-center text-[#FD169F]'>
+          <div className='text-center text-white'>
             <h3 className='text-3xl sm:text-5xl font-bold mb-4'>
-              Наши услуги
+              Наши методики
             </h3>
             <p className='text-base sm:text-xl mb-6 md:mb-14'>
               Воспользуйтесь нашими инновационными программами, специально разработанными для детей в возрасте от 5 до 16 лет. Мы предлагаем уникальный опыт обучения, включающий в себя быстрое освоение навыков счета, чтения и развитие критического мышления. Присоединяйтесь к нам, чтобы обеспечить яркое будущее вашему ребенку!

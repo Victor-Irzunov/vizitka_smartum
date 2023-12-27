@@ -6,14 +6,12 @@ import Image from 'next/image'
 
 export default function Home() {
 
-
-
   return (
-    <main className="min-h-[80vh] py-32 bg-slate-50 relative">
+    <main className="min-h-[80vh] py-32 bg-gradient-to-r from-[#2A9ED8] to-[#E40579] relative">
       <div className='container mx-auto'>
         <div className='flex xz:flex-col sd:flex-row' id='main'>
           <div className='sd:w-1/2 xz:w-full'>
-            <h1 className='uppercase font-light sd:text-3xl xz:text-xl text-[#FD169F]'>
+            <h1 className='uppercase font-light sd:text-3xl xz:text-xl text-white'>
               Академия <span className='font-semibold block sd:text-5xl xz:text-3xl sd:mt-4 xz:mt-2'>
                 РАЗВИТИЯ ИНТЕЛЛЕКТА
               </span>
@@ -47,11 +45,13 @@ export default function Home() {
         <p className='uppercase text-xl'>
           Наша организация является франчайзи компании
         </p>
-        <Image src='/logo/logo2.webp'
-          alt='франчайзи компании Amakids'
-          width={233} height={120}
-          className='mx-auto'
-        />
+        <a href='https://amakids.ru/' target='_blank'>
+          <Image src='/logo/logo2.webp'
+            alt='франчайзи компании Amakids'
+            width={233} height={120}
+            className='mx-auto'
+          />
+        </a>
       </div>
 
       <div className='mt-16 text-center'>
